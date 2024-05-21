@@ -1,0 +1,41 @@
+INFO:httpx:HTTP Request: POST http://testserver/workflows "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://testserver/workflows "HTTP/1.1 200 OK"
+INFO:root:Lead Alice from Salesforce integrated with CRM.
+INFO:root:Sofia is sending a message to Alice via Whatsapp
+INFO:root:Processed lead Alice from Salesforce using Sofia via Whatsapp
+INFO:httpx:HTTP Request: POST http://testserver/leads "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/workflows "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://testserver/workflows "HTTP/1.1 200 OK"
+INFO:root:Lead Alice from Salesforce integrated with CRM.
+INFO:root:Sofia is sending a message to Alice via Whatsapp
+INFO:root:Processed lead Alice from Salesforce using Sofia via Whatsapp
+INFO:httpx:HTTP Request: POST http://testserver/leads "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/workflows "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET http://testserver/workflows "HTTP/1.1 200 OK"
+INFO:root:Lead Alice from Salesforce integrated with CRM.
+INFO:root:Sofia is sending a message to Alice via Whatsapp
+INFO:root:Processed lead Alice from Salesforce using Sofia via Whatsapp
+INFO:httpx:HTTP Request: POST http://testserver/leads "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/leads "HTTP/1.1 422 Unprocessable Entity"
+INFO:httpx:HTTP Request: POST http://testserver/leads "HTTP/1.1 422 Unprocessable Entity"
+INFO:httpx:HTTP Request: POST http://testserver/workflows "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/workflows "HTTP/1.1 422 Unprocessable Entity"
+INFO:httpx:HTTP Request: POST http://testserver/workflows "HTTP/1.1 422 Unprocessable Entity"
+INFO:httpx:HTTP Request: GET http://testserver/workflows "HTTP/1.1 200 OK"
+INFO:root:Lead Alice from Salesforce integrated with CRM.
+INFO:root:Sofia is sending a message to Alice via Whatsapp
+INFO:root:Processed lead Alice from Salesforce using Sofia via Whatsapp
+INFO:httpx:HTTP Request: POST http://testserver/leads "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/leads "HTTP/1.1 422 Unprocessable Entity"
+INFO:httpx:HTTP Request: POST http://testserver/leads "HTTP/1.1 422 Unprocessable Entity"
+INFO:httpx:HTTP Request: POST http://testserver/workflows "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/workflows "HTTP/1.1 422 Unprocessable Entity"
+INFO:httpx:HTTP Request: POST http://testserver/workflows "HTTP/1.1 422 Unprocessable Entity"
+INFO:httpx:HTTP Request: GET http://testserver/workflows "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/workflows "HTTP/1.1 200 OK"
+INFO:root:Lead Alice from Salesforce integrated with CRM.
+INFO:root:Sofia is sending a message to Alice via Whatsapp
+INFO:root:Processed lead Alice from Salesforce using Sofia via Whatsapp
+INFO:httpx:HTTP Request: POST http://testserver/leads "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST http://testserver/leads "HTTP/1.1 422 Unprocessable Entity"
+INFO:httpx:HTTP Request: POST http://testserver/leads "HTTP/1.1 422 Unprocessable Entity"

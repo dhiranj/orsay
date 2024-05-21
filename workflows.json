@@ -1,0 +1,1 @@
+{"workflows": [{"source": "Salesforce", "persona": "Sofia", "channel": "Whatsapp"}, {"source": "HubSpot", "persona": "Alex", "channel": "iMessage"}, {"source": "LinkedIn", "persona": "Eva", "channel": "Email"}]}

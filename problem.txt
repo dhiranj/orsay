@@ -1,0 +1,52 @@
+### Background:
+
+Our company's AI sales agent system is designed to handle leads from various sources like CRMs, direct API integrations, 
+and social media channels. It uses different personas to communicate with various types of clients and executes specific workflows 
+based on the source of the lead.
+
+### Task:
+
+Your task is to develop a prototype of a system that can dynamically manage different workflows for handling leads. 
+Each workflow will be defined by a lead source, a persona, and an output channel.
+
+### Requirements:
+
+1. **System Components**:
+    - **Workflow Configuration**: A module to define and store workflows, which consist of a trigger (lead source), a persona (an AI sales agent), and an output channel (i.e. Whatsapp, iMessage etc.)
+    - **Lead Simulator**: A simple script to simulate the incoming of leads from different sources.
+    - **Workflow Executor**: A system that processes incoming leads according to the defined workflows.
+2. **Features to Implement**:
+    - **Defining Workflows**: Implement functionality to allow dynamic definition of workflows through a simple interface or configuration file.
+    - **Processing Leads**: Develop the logic to route leads based on the matching workflow. For example, if a lead comes from 'Salesforce', it should be processed using the 'Sofia' persona over 'Whatsapp'.
+    - **Logging**: Implement a logging system that tracks which leads are processed by which workflows.
+3. **Technical Specifications**:
+    - Use Python for the implementation. Mocking of external systems like CRM or Whatsapp is encouraged to simulate interactions.
+    - The system should be able to handle different types of inputs and workflows as specified by a configuration.
+4. **Output Specification**:
+    - Output logs should detail how each lead is processed based on the workflow configurations.
+5. **Code Quality**:
+    - The code must be clean, modular, and well-documented.
+    - Include basic unit tests to ensure workflows are executed as expected.
+
+### Submission:
+
+Please ensure your submission includes:
+
+1. **Code**:
+    - Your code should be organized appropriately. This will include all the components you've developed for the system.
+2. **README**:
+    - Include a README file that provides instructions on how to set up and run your code. This is crucial to ensure that your solution can be easily reviewed and tested.
+3. **Loom Video**:
+    - A video explaining the decisions you made while developing your solution. Please use Loom or a similar platform for your video explanation.
+
+### Evaluation:
+
+- **Functionality**: Does the system correctly apply workflows to the corresponding leads?
+- **Modularity and Scalability**: How well is the code structured to allow easy addition of new lead sources, personas, and output channels?
+- **Robustness**: How effectively does the system handle unexpected or erroneous inputs?
+- **Documentation and Code Quality**: Clarity of documentation and adherence to Python coding standards.
+
+### Tips:
+
+- Focus on creating a robust configuration system for workflows, which is key to the system's flexibility.
+- Consider how real-time changes to workflows could be incorporated without disrupting ongoing processes.
