@@ -9,15 +9,23 @@ This system dynamically manages different workflows for handling leads based on 
 3. **Tests**: Check leads processing for different cases (`tests_main.py`).
 4. **Logging**: Logs the processing of leads (`workflow.log`).
 
+## Prerequisites
+Python 3.10 or higher
+
 ## Setup
 
-1. Clone the repository. (  )
-3. Ensure Python 3 is installed on your system.
-4. Install required packages (if any).
-5. Configure your workflows in `workflows.json`.
+1. Clone the repository. ( git clone https://github.com/dhiranj/orsay.git , cd orsay)
+2. Create and activate a virtual environment. ( python -m venv venv , source venv/bin/activate )
+3. Install required packages ( pip install -r requirements.txt ).
+
 
 ## Running the System
 
-1. Start the Lead Simulator:
-   ```sh
-   python lead_simulator.py
+1. Start the FastAPI server:
+   uvicorn app.main:app --reload
+
+## Running Tests
+
+python tests/test_main.py
+
+
